@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f4">
+  <meta name="description" content="Оборудование для видеонаблюдения, сетей и связи. Подбор, комплектация и доставка." />
+  <title>Видеонаблюдение и коммуникация</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><div class="wrap topline-inner"><span>Поставляем оборудование для связи и безопасности</span><div><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a><span class="top-phone">+7 (7172) 55-40-20</span></div></div></div>
+  <header class="header wrap">
+    <a class="brand" href="#top" aria-label="Видеонаблюдение и коммуникация — на главную"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 17.5A19 19 0 0 1 41 13"/><path d="M11 23a14 14 0 0 1 24-9"/><path d="M16 28a8 8 0 0 1 12-7"/><circle cx="20" cy="32" r="3"/><path class="cam" d="M24 28h12a3 3 0 0 1 3 3v8H24zM39 31l5-3v11l-5-3z"/></svg></span><span class="brand-name">Видеонаблюдение<br>и коммуникация<small>КАМЕРЫ · ИНТЕРНЕТ · СЕТЕВОЕ ОБОРУДОВАНИЕ</small></span></a>
+    <button class="catalog-button" id="catalogButton"><span class="hamb"><i></i><i></i></span> Каталог</button>
+    <form class="search" id="searchForm"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="Найти оборудование или расходник…" aria-label="Поиск по каталогу"><kbd>⌘ K</kbd><button aria-label="Найти">Найти</button></form>
+    <a class="header-contact" href="tel:+77172554020"><span class="contact-dot"></span><span><small>Подскажем и поможем</small><b>+7 (7172) 55-40-20</b></span></a>
+    <button class="cart-button" id="cartButton" aria-label="Открыть корзину"><span class="cart-icon">▱</span><span class="cart-label">Корзина</span><b id="cartCount">0</b></button>
+  </header>
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow"><span></span> НАДЁЖНОЕ ОБОРУДОВАНИЕ — СИЛЬНЫЕ СЕТИ</div><h1 class="hero-title">Видеонаблюдение<br><em>— всегда с вами</em></h1><p>Оборудование для видеонаблюдения, кабельных сетей и связи. Подберём комплект под вашу задачу — от одного объекта до целой инфраструктуры.</p><div class="hero-actions"><a class="primary-button" href="#catalog">Смотреть каталог <span>↗</span></a><a class="text-button" href="#contacts">Обсудить проект <span>→</span></a></div><div class="hero-note"><div class="avatar-stack"><i>СК</i><i>+</i></div><span>Помогаем подобрать<br><b>под задачу и бюджет</b></span><span class="note-sep"></span><span>Быстрая отгрузка<br><b>со склада</b></span></div></div>
+      <div class="hero-visual"><div class="visual-grid"></div><div class="hero-photo" role="img" aria-label="Двор коттеджа с установленными камерами видеонаблюдения"></div><div class="float-tag tag-top"><span class="live-dot"></span> ОБЪЕКТ ПОД ЗАЩИТОЙ</div><div class="float-tag tag-bottom"><span class="camera-icon">◉</span><span><b>Видеонаблюдение</b><small>Чёткая картина 24/7</small></span><span class="tag-arrow">↗</span></div><div class="hero-index">01 <span>—</span> 03</div></div>
+    </section>
+    <section class="trust-strip"><div class="wrap trust-inner"><div><b>01</b><span>Официальные<br>поставки</span></div><div><b>02</b><span>Подбор под<br>вашу задачу</span></div><div><b>03</b><span>Техническая<br>поддержка</span></div><div><b>04</b><span>Доставка по<br>Казахстану</span></div><div class="trust-note">Ваш надёжный партнёр<br>в инфраструктуре связи <span>↗</span></div></div></section>
+    <section class="catalog-section wrap" id="catalog">
+      <div class="section-heading"><div><div class="eyebrow"><span></span> НАШ КАТАЛОГ</div><h2>Всё для связи<br>и безопасности.</h2></div><p>Собрали проверенное оборудование и расходные материалы, которые работают вместе — без сложностей при монтаже.</p></div>
+      <div class="category-row" id="categoryRow"><button class="category-chip active" data-category="Все товары">Все товары <span>12</span></button><button class="category-chip" data-category="Видеонаблюдение">Видеонаблюдение</button><button class="category-chip" data-category="Кабель и провод">Кабель и провод</button><button class="category-chip" data-category="Сеть и Wi-Fi">Сеть и Wi-Fi</button><button class="category-chip" data-category="Монтаж и питание">Монтаж и питание</button></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="catalog-foot"><span>Показываем <b id="shownCount">6</b> из 12 товаров</span><button class="outline-button" id="showMore">Показать ещё <span>↓</span></button><a href="#contacts">Нужна помощь с выбором? <b>Спросите специалиста ↗</b></a></div>
+    </section>
+    <section class="services" id="delivery"><div class="wrap services-inner"><div><div class="eyebrow light-eyebrow"><span></span> БОЛЬШЕ, ЧЕМ ПРОДАЖА</div><h2>Помогаем собрать<br><em>решение целиком.</em></h2><p>Не просто продаём коробки. Разбираемся в задаче, подбираем совместимое оборудование и остаёмся на связи после покупки.</p><a class="light-link" href="#contacts">Расскажите о проекте <span>↗</span></a></div><div class="service-list"><article><span class="service-num">01</span><div><h3>Подбор оборудования</h3><p>Сверим характеристики и составим список совместимых комплектующих.</p></div><span class="service-arrow">↗</span></article><article><span class="service-num">02</span><div><h3>Комплектация объектов</h3><p>Соберём заказ по спецификации или поможем её подготовить.</p></div><span class="service-arrow">↗</span></article><article><span class="service-num">03</span><div><h3>Доставка по Казахстану</h3><p>Организуем доставку до вашего объекта или терминала.</p></div><span class="service-arrow">↗</span></article></div></div></section>
+    <section class="contact-section wrap" id="contacts"><div class="contact-card"><div><div class="eyebrow"><span></span> ЕСТЬ ВОПРОС ИЛИ ПРОЕКТ?</div><h2>Давайте обсудим<br>вашу задачу.</h2><p>Оставьте контакты — специалист свяжется с вами, ответит на вопросы и поможет с подбором.</p><a href="tel:+77172554020" class="contact-phone">+7 (7172) 55-40-20 <span>↗</span></a><small>Пн–Пт, 9:00–18:00 · Астана, Казахстан</small></div><form id="leadForm"><label>Как к вам обращаться?<input required name="name" placeholder="Ваше имя"></label><label>Номер телефона<input required name="phone" type="tel" placeholder="+7 (___) ___-__-__"></label><button class="primary-button" type="submit">Жду звонка <span>↗</span></button><small>Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</small><div id="formMessage" aria-live="polite"></div></form></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 17.5A19 19 0 0 1 41 13"/><path d="M11 23a14 14 0 0 1 24-9"/><path d="M16 28a8 8 0 0 1 12-7"/><circle cx="20" cy="32" r="3"/><path class="cam" d="M24 28h12a3 3 0 0 1 3 3v8H24zM39 31l5-3v11l-5-3z"/></svg></span><span class="brand-name">Видеонаблюдение<br>и коммуникация<small>КАМЕРЫ · ИНТЕРНЕТ · СЕТЕВОЕ ОБОРУДОВАНИЕ</small></span></a><span>Оборудование, которому можно доверять.</span><span>© 2026 Видеонаблюдение и коммуникация</span></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true"><section class="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="cart-modal-head"><div><span class="eyebrow"><span></span> ВАШ ЗАКАЗ</span><h2 id="cartTitle">Корзина</h2></div><button class="cart-close" id="cartClose" aria-label="Закрыть корзину">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-modal-foot"><div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₸</strong></div><button class="primary-button" id="checkoutButton">Оформить заказ <span>↗</span></button></div></section></div>
+  <script src="app.js"></script>
+</body>
+</html>
